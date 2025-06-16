@@ -91,10 +91,6 @@ const props = defineProps<{
   title: string
 }>()
 
-const emit = defineEmits<{
-  close: []
-}>()
-
 const viewMode = ref<'formatted' | 'raw'>('formatted')
 
 const formattedData = computed(() => {
