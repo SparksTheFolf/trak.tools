@@ -8,7 +8,7 @@
             Trak.Tools powered by GTFS, Is an <a href="https://github.com/SparksTheFolf/trak.tools">open-source</a> project to make transit data usable for everyone.
           </p>
           <p>
-            Created by <a href="NolanTrapp.com" class="text-light text-decoration-none">Nolan Trapp</a> and contributors.
+            Created by <a href="https://www.NolanTrapp.com" class="text-light text-decoration-none">Nolan Trapp</a> and contributors.
           </p>
         </div>
         <div class="col-md-4 text-md-end">
