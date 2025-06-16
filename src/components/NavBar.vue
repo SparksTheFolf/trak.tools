@@ -4,7 +4,7 @@
       <div class="d-flex align-items-center">
         <router-link class="navbar-brand fw-bold me-3" to="/">
           <i class="bi bi-train-front me-2"></i>
-          Trak.tools
+          Trak.Tools
         </router-link>
         
         <!-- Development Environment Indicator -->
