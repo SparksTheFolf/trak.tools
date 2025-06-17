@@ -9,6 +9,7 @@ import './style.css'
 import HomePage from './pages/HomePage.vue'
 import RoutesPage from './pages/RoutesPage.vue'
 import RouteDetailPage from './pages/RouteDetailPage.vue'
+import AboutPage from './pages/About.vue'
 
 const routes = [
   { path: '/', component: HomePage },
@@ -16,7 +17,7 @@ const routes = [
   { path: '/routes/:id', component: RouteDetailPage, props: true },
   { path: '/upload', component: () => import('./pages/PlaceholderPage.vue') },
   { path: '/parse', component: () => import('./pages/PlaceholderPage.vue') },
-  { path: '/about', component: () => import('./pages/PlaceholderPage.vue') }
+  { path: '/about', component: AboutPage }
 ]
 
 const router = createRouter({
