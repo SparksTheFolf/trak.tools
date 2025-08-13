@@ -16,7 +16,7 @@ const routes = [
   { path: '/routes', component: RoutesPage },
   { path: '/routes/:id', component: RouteDetailPage, props: true },
   { path: '/upload', component: () => import('./pages/PlaceholderPage.vue') },
-  { path: '/parse', component: () => import('./pages/PlaceholderPage.vue') },
+  { path: '/parse', component: () => import('./pages/ParsePage.vue') },
   { path: '/about', component: AboutPage }
 ]
 
